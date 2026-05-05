@@ -4,52 +4,60 @@ Notix is a modern **Notion-style note-taking web app** built with powerful tools
 
 ---
 
+## 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Visit-Notix-black?style=for-the-badge&logo=vercel)](https://notix-x8.vercel.app)
+---
+
+## 📸 Screenshots
+
+![Loginpage](./screenshot/loginpage.png)
+![Loginpage](./screenshot/overview-light.png)
+![Loginpage](./screenshot/overview.png)
+
+
+
+---
+
 ## 🚀 Features
 
-* 🔐 **Authentication**
+- 🔐 **Authentication**
+  - Secure login/signup using Clerk
+  - Session handling with modern auth flow
 
-  * Secure login/signup using Clerk
-  * Session handling with modern auth flow
+- ⚡ **Backend with Convex**
+  - Real-time database using Convex
+  - Fast and scalable data handling
 
-* ⚡ **Backend with Convex**
+- 📄 **Note Management**
+  - Create new notes
+  - Edit content with rich text editor
+  - Add headings and structure content
 
-  * Real-time database using Convex
-  * Fast and scalable data handling
+- 🗂️ **File System**
+  - Archive notes
+  - Restore archived notes
+  - Permanent delete with confirmation
 
-* 📄 **Note Management**
+- 🔍 **Search Functionality**
+  - Quickly search notes by title/content
 
-  * Create new notes
-  * Edit content with rich text editor
-  * Add headings and structure content
+- 🖼️ **Image Upload**
+  - Upload and manage images using Edge Store
 
-* 🗂️ **File System**
-
-  * Archive notes
-  * Restore archived notes
-  * Permanent delete with confirmation
-
-* 🔍 **Search Functionality**
-
-  * Quickly search notes by title/content
-
-* 🖼️ **Image Upload**
-
-  * Upload and manage images using Edge Store
-
-* 🎨 **UI Features**
-
-  * Dark mode / Light mode toggle
-  * Clean and minimal UI (Notion-inspired)
+- 🎨 **UI Features**
+  - Dark mode / Light mode toggle
+  - Clean and minimal UI (Notion-inspired)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend**: Next.js, React
-* **Backend**: Convex
-* **Authentication**: Clerk
-* **Storage**: Edge Store
-* **Styling**: Tailwind CSS
+- **Frontend**: Next.js, React
+- **Backend**: Convex
+- **Authentication**: Clerk
+- **Storage**: Edge Store
+- **Styling**: Tailwind CSS
 
 ---
 
@@ -67,6 +75,9 @@ npm install
 
 # Run the development server
 npm run dev
+
+#Run convex
+npx convex dev
 ```
 
 ---
@@ -90,18 +101,12 @@ EDGE_STORE_SECRET_KEY=
 
 ---
 
-## 📸 Screenshots
-
-(Add your screenshots here later)
-
----
-
 ## 🎯 Future Improvements
 
-* Real-time collaboration
-* Sharing notes with others
-* Markdown support
-* Mobile optimization
+- Real-time collaboration
+- Sharing notes with others
+- Markdown support
+- Mobile optimization
 
 ---
 
@@ -120,5 +125,4 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
----
+## If you like this project, give it a ⭐ on GitHub!
