@@ -41,7 +41,7 @@ const Editor = ({ onChange, initialContent, editable }: EditorProps) => {
     return editor.onChange(() => {
       onChange(JSON.stringify(editor.document));
     });
-  }, [editor, onChange]);
+  }, [editor, onChange,editable]);
   return (
     <div>
       <BlockNoteView

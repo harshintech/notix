@@ -1,37 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Notix – Notion Clone
 
-## Getting Started
+Notix is a modern **Notion-style note-taking web app** built with powerful tools like Clerk, Convex, and Edge Store. It allows users to create, manage, and organize notes with a clean and responsive UI.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* 🔐 **Authentication**
+
+  * Secure login/signup using Clerk
+  * Session handling with modern auth flow
+
+* ⚡ **Backend with Convex**
+
+  * Real-time database using Convex
+  * Fast and scalable data handling
+
+* 📄 **Note Management**
+
+  * Create new notes
+  * Edit content with rich text editor
+  * Add headings and structure content
+
+* 🗂️ **File System**
+
+  * Archive notes
+  * Restore archived notes
+  * Permanent delete with confirmation
+
+* 🔍 **Search Functionality**
+
+  * Quickly search notes by title/content
+
+* 🖼️ **Image Upload**
+
+  * Upload and manage images using Edge Store
+
+* 🎨 **UI Features**
+
+  * Dark mode / Light mode toggle
+  * Clean and minimal UI (Notion-inspired)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend**: Next.js, React
+* **Backend**: Convex
+* **Authentication**: Clerk
+* **Storage**: Edge Store
+* **Styling**: Tailwind CSS
+
+---
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/harshintech/notix.git
+
+# Navigate to project folder
+cd notix
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔑 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file and add:
 
-## Learn More
+```env
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+NEXT_PUBLIC_CONVEX_SITE_URL=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 
-To learn more about Next.js, take a look at the following resources:
+CLERK_SECRET_KEY=
+CLERK_FRONTEND_API_URL=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+EDGE_STORE_ACCESS_KEY=
+EDGE_STORE_SECRET_KEY=
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📸 Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+(Add your screenshots here later)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# notix
+---
+
+## 🎯 Future Improvements
+
+* Real-time collaboration
+* Sharing notes with others
+* Markdown support
+* Mobile optimization
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repo and submit a PR.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+---
